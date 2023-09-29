@@ -1,0 +1,250 @@
+*
+{
+  background-color:black ;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  
+}
+.header
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightblue;
+  height: 100vh;
+  width: 100%;
+  background-image: url(mahatma\ gandhi.png);
+  background-size: cover;
+  background-position: center;
+}
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-right: 8%;
+  padding-left: 8%;  
+}
+nav ul li 
+{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+nav ul li a:hover
+{
+  color: beige;
+  transition: 0.2s;
+}
+.content
+{
+  position: absolute;
+  top: 40%;
+  left: 25px;
+}
+.about
+{
+  background-color:black ;
+  width: 100%;
+  padding: 100px 0px;
+}
+.main
+{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.about h2
+{
+  font-size: 45px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about h4
+{
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.about p
+{
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+button
+{
+  background-color: aqua;
+  color: blue;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 15px;
+  border-radius: 20px;
+}
+.skills
+{
+  background-color:black ;
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  position: relative;
+  margin: auto;
+
+}
+.container
+{
+  display: flex;
+  gap: 60px;
+  animation: scroll 20s linear infinite;
+}
+.skills h1
+{
+  color: white;
+}
+.card
+{
+  border-radius: 30px;
+  min-height: 200px;
+  min-width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.card:nth-child(odd)
+{
+  background:linear-gradient(-223deg,yellow,rgb(218, 100, 119),red);
+}
+.card:nth-child(even)
+{
+  background:linear-gradient(-223deg,rgb(89, 0, 255),rgb(185, 35, 60),rgb(124, 124, 32));
+}
+@keyframes scroll
+{
+  0% {
+    transform: translatex(0);
+  }
+  100%{
+    transform: translatex(calc(-250px*4));
+  }
+
+}
+.box
+{
+  height: 100vh;
+  background-color:black ;
+}
+.testimonials
+{
+  display: flex;
+  justify-content: center;
+  min-height:400px ;
+  align-items: center;
+}
+.box h1
+{
+  color: beige;
+  text-align: center;
+}
+.text
+{
+  height: 190px;
+  width: 330px;
+  padding: 20px 30px;
+  margin: 15px;
+  background-color: aqua;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contact
+{
+  
+  background-color: rgb(88, 60, 60);
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.contact-box
+{
+  display: flex;
+  background: rgb(57, 32, 75);
+}
+.contact-left
+{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  color: beige;
+}
+.contact-right
+{
+  flex-basis: 40%;
+  padding: 40px;
+  background-color: grey;
+}
+.contact h1
+{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact-left input
+{
+  color:black ;
+}
+.input-row
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group
+{
+  flex-basis: 45%;
+}
+.input
+{
+  width:100%;
+  border: none;
+  border-bottom: Ipx solid#ccc;
+}
+textarea
+{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-bottom: Ipx solid#ccc;
+  color: blue;
+}
+label
+{
+  margin-bottom: 5px;
+  display: block;
+  color: aqua;
+}
+tr td:first-child
+{
+  padding-right: 30px;
+  padding-bottom: 10px;
+  align-items: center;
+  text-align: justify;
+}
+  
+
+
+
+
+
+
